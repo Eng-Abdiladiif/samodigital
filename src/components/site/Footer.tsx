@@ -40,44 +40,58 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="border-t border-white/10 mt-24 bg-black">
-    <div className="container-tight py-16 grid gap-12 md:grid-cols-[1.4fr_repeat(3,1fr)]">
-      <div>
-        <Link href="/" className="flex items-center gap-2">
-          <Image src={logo} alt="Samodigital" width={280} height={93} className="h-18 w-auto" />
-        </Link>
-        <p className="mt-4 text-sm text-white/60 max-w-xs">
-          A digital agency designing and engineering brands and products that endure.
-        </p>
-        <div className="mt-6 flex gap-2">
-          {[Twitter, Linkedin, Instagram, Github].map((Icon, i) => (
-            <a key={i} href="#" className="grid place-items-center h-10 w-10 rounded-full border border-white/10 text-white/60 hover:text-white hover:border-white/30 hover:bg-white/5 transition-all">
-              <Icon className="h-4 w-4" />
-            </a>
-          ))}
-        </div>
-      </div>
-      {cols.map((c) => (
-        <div key={c.title}>
-          <h4 className="text-sm font-semibold mb-4 text-white">{c.title}</h4>
-          <ul className="space-y-2.5">
-            {c.items.map((it) => (
-              <li key={it.label}>
-                <Link href={it.to} className="text-sm text-white/60 hover:text-white transition-colors">
-                  {it.label}
-                </Link>
-              </li>
+    <footer className="border-t border-border mt-24 bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+      <div className="container-tight py-16 grid gap-12 md:grid-cols-[1.4fr_repeat(3,1fr)]">
+        <div>
+          <Link href="/" className="inline-block">
+            <Image 
+              src={logo} 
+              alt="Samodigital" 
+              width={140} 
+              height={47} 
+              className="h-12 w-auto" 
+            />
+          </Link>
+          <p className="mt-4 text-sm text-gray-400 max-w-xs leading-relaxed">
+            A digital agency designing and engineering brands and products that endure.
+          </p>
+          <div className="mt-6 flex gap-2">
+            {[Twitter, Linkedin, Instagram, Github].map((Icon, i) => (
+              <a 
+                key={i} 
+                href="#" 
+                className="grid place-items-center h-10 w-10 rounded-full border border-gray-700 text-gray-400 hover:text-white hover:border-gray-500 hover:bg-gray-800 transition-all duration-300"
+                aria-label={`Social link ${i + 1}`}
+              >
+                <Icon className="h-4 w-4" />
+              </a>
             ))}
-          </ul>
+          </div>
         </div>
-      ))}
-    </div>
-    <div className="border-t border-white/10">
-      <div className="container-tight py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/50">
-        <p>© {currentYear} Samodigital. All rights reserved.</p>
-        <p>Crafted with intention in San Francisco.</p>
+        {cols.map((c) => (
+          <div key={c.title}>
+            <h4 className="text-sm font-semibold mb-4 text-white">{c.title}</h4>
+            <ul className="space-y-2.5">
+              {c.items.map((it) => (
+                <li key={it.label}>
+                  <Link 
+                    href={it.to} 
+                    className="text-sm text-gray-400 hover:text-white transition-colors duration-300"
+                  >
+                    {it.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-    </div>
-  </footer>
+      <div className="border-t border-gray-800">
+        <div className="container-tight py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">
+          <p>© {currentYear} Samodigital. All rights reserved.</p>
+          <p>Crafted with intention in Sanaag.</p>
+        </div>
+      </div>
+    </footer>
   );
 };

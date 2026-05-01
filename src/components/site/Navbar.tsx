@@ -49,10 +49,10 @@ export const Navbar = () => {
           <Image 
             src={logo} 
             alt="Samodigital" 
-            width={72} 
-            height={72} 
+            width={60} 
+            height={60} 
             className={`transition-all duration-500 ${
-              scrolled ? "h-16 w-auto md:h-20 md:w-auto" : "h-20 w-auto md:h-24 md:w-auto"
+              scrolled ? "h-14 w-auto md:h-16 md:w-auto" : "h-16 w-auto md:h-20 md:w-auto"
             }`}
             priority 
           />
