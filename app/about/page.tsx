@@ -13,10 +13,10 @@ const team = [
 ];
 
 const values = [
-  { icon: Heart, title: "Care deeply", desc: "We treat your work like it's our own — because it is." },
+  { icon: Heart, title: "Care deeply", desc: "We treat your work like it&apos;s our own — because it is." },
   { icon: Zap, title: "Move with intent", desc: "Speed comes from clarity, not chaos. We pick the right battles." },
   { icon: Award, title: "Make it last", desc: "We optimize for systems and decisions that age well." },
-  { icon: Globe, title: "Stay curious", desc: "We're students of the craft, the market, and the medium." },
+  { icon: Globe, title: "Stay curious", desc: "We&apos;re students of the craft, the market, and the medium." },
 ];
 
 const stats = [
@@ -36,7 +36,7 @@ export default function About() {
             A small studio with a <span className="highlight-mark">big appetite</span> for ambitious work
           </h1>
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto">
-            Samo Digital Solution was founded in 2026 around a simple belief: that the best digital work happens when strategy, design, and engineering live in the same room. We've been building that way ever since.
+            Samo Digital Solution was founded in 2026 around a simple belief: that the best digital work happens when strategy, design, and engineering live in the same room. We&apos;ve been building that way ever since.
           </p>
         </FadeIn>
       </section>

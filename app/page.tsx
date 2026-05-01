@@ -240,7 +240,7 @@ export default function Home() {
           {testimonials.map((t) => (
             <FadeIn key={t.name} direction="up">
               <figure className="surface-card p-7 h-full">
-                <blockquote className="text-base leading-relaxed">"{t.quote}"</blockquote>
+                <blockquote className="text-base leading-relaxed">&ldquo;{t.quote}&rdquo;</blockquote>
                 <figcaption className="mt-6 pt-6 border-t border-border">
                   <div className="font-semibold">{t.name}</div>
                   <div className="text-sm text-muted-foreground">{t.role}</div>

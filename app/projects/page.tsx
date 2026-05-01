@@ -14,7 +14,7 @@ import projDashboard from "@/assets/project-dashboard.jpg";
 
 const all = [
   { img: projMobile, title: "Hallo Helper App", category: "Mobile", desc: "A concierge mobile app connecting travelers with locals.", challenge: "Make the discovery flow feel personal in under 30 seconds.", solution: "A swipe-first onboarding paired with a curated map.", results: "+38% session length, 4.8 rating in store." },
-  { img: projBrand, title: "Fabio's Pizza", category: "Branding", desc: "Identity rooted in craft, taste, and Italian warmth.", challenge: "Stand out in a saturated local market.", solution: "Bold typography system + custom illustration suite.", results: "+62% YoY revenue, viral packaging." },
+  { img: projBrand, title: "Fabio&apos;s Pizza", category: "Branding", desc: "Identity rooted in craft, taste, and Italian warmth.", challenge: "Stand out in a saturated local market.", solution: "Bold typography system + custom illustration suite.", results: "+62% YoY revenue, viral packaging." },
   { img: projLaptop, title: "Enstack Landing", category: "Web", desc: "Conversion-focused launch site for a B2B SaaS.", challenge: "Communicate a complex platform in a single scroll.", solution: "Narrative-driven sections + interactive demo.", results: "3.4x signup conversion in week one." },
   { img: projDashboard, title: "Wallet Dashboard", category: "Product", desc: "Analytics dashboard for a fintech product.", challenge: "Surface insight without overwhelming users.", solution: "Progressive disclosure and signal-first layout.", results: "Time-to-insight cut from 4 minutes to 20 seconds." },
 ];
@@ -34,7 +34,7 @@ export default function Projects() {
             Work we're <span className="highlight-mark">proud of</span>
           </h1>
           <p className="text-muted-foreground mt-5 max-w-xl mx-auto">
-            A glimpse into the brands and products we've helped design, build, and grow.
+            A glimpse into the brands and products we&apos;ve helped design, build, and grow.
           </p>
         </FadeIn>
       </section>
