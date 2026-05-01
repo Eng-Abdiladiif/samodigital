@@ -18,7 +18,7 @@ const services = [
 const tiers = [
   { name: "Starter", price: "$200", desc: "For early teams shipping their first MVP.", features: ["Landing page", "Brand starter kit", "Analytics setup", "1 round of revisions"] },
   { name: "Growth", featured: true, price: "$450", desc: "For scaling brands ready to compound.", features: ["5–8 page site", "Design system", "CMS integration", "SEO foundations", "3 rounds of revisions"] },
-  { name: "Bespoke", price: "Let's talk", desc: "Custom engagements for ambitious teams.", features: ["Product design", "Custom engineering", "Dedicated team", "Quarterly strategy"] },
+  { name: "Bespoke", price: "Let&apos;s talk", desc: "Custom engagements for ambitious teams.", features: ["Product design", "Custom engineering", "Dedicated team", "Quarterly strategy"] },
 ];
 
 export default function Services() {
@@ -93,7 +93,7 @@ export default function Services() {
         <FadeIn direction="up">
           <div className="surface-card p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-semibold">Have a project in mind?</h2>
-            <p className="text-muted-foreground mt-3 max-w-md mx-auto">Tell us about your goals — we'll send back a tailored plan within two business days.</p>
+            <p className="text-muted-foreground mt-3 max-w-md mx-auto">Tell us about your goals — we&apos;ll send back a tailored plan within two business days.</p>
             <Button asChild size="lg" className="mt-6 bg-white text-black hover:bg-white/90 rounded-full font-semibold h-12 px-8"><Link href="/contact">Book a call <ArrowRight className="h-4 w-4" /></Link></Button>
           </div>
         </FadeIn>

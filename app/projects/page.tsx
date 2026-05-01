@@ -31,7 +31,7 @@ export default function Projects() {
         <FadeIn direction="up">
           <span className="section-label mb-6 justify-center inline-flex">Selected work</span>
           <h1 className="text-4xl md:text-6xl font-semibold leading-[1.05] text-balance max-w-3xl mx-auto">
-            Work we're <span className="highlight-mark">proud of</span>
+            Work we&apos;re <span className="highlight-mark">proud of</span>
           </h1>
           <p className="text-muted-foreground mt-5 max-w-xl mx-auto">
             A glimpse into the brands and products we&apos;ve helped design, build, and grow.

@@ -23,7 +23,7 @@ const services = [
 
 const projects = [
   { img: projMobile, title: "Hallo Helper App", desc: "A mobile-first concierge platform connecting travelers with local experts.", tags: ["Mobile", "Web"] },
-  { img: projBrand, title: "Fabio's Pizza", desc: "Brand identity rooted in craft, taste, and unmistakable Italian warmth.", tags: ["Brand", "Identity"] },
+  { img: projBrand, title: "Fabio&apos;s Pizza", desc: "Brand identity rooted in craft, taste, and unmistakable Italian warmth.", tags: ["Brand", "Identity"] },
   { img: projLaptop, title: "Enstack Landing Page", desc: "A conversion-focused marketing site with crisp interactions.", tags: ["Landing", "Web"] },
   { img: projDashboard, title: "Digital Wallet Dashboard", desc: "An analytics dashboard surfacing financial insights at a glance.", tags: ["Product", "UI"] },
 ];
@@ -160,7 +160,7 @@ export default function Home() {
         <FadeIn direction="up">
           <SectionHeader
             label="Our products"
-            title={<>Elevating our Partners' Products with Unparalleled Value</>}
+            title={<>Elevating our Partners&apos; Products with Unparalleled Value</>}
           />
         </FadeIn>
         <StaggerContainer staggerDelay={0.15} className="grid md:grid-cols-2 gap-6 mt-12">
@@ -218,7 +218,7 @@ export default function Home() {
             <div className="surface-card p-8">
               <div className="grid place-items-center h-11 w-11 rounded-xl bg-primary/15 text-primary mb-4"><Target className="h-5 w-5" /></div>
               <h3 className="text-xl font-semibold">Customized Strategies</h3>
-              <p className="text-muted-foreground mt-2">We don't believe in one-size-fits-all. Every engagement is tailored to your audience and goals.</p>
+              <p className="text-muted-foreground mt-2">We don&apos;t believe in one-size-fits-all. Every engagement is tailored to your audience and goals.</p>
             </div>
           </FadeIn>
           <FadeIn direction="up">

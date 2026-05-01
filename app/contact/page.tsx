@@ -12,7 +12,7 @@ export default function Contact() {
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Message sent! We'll be in touch within two business days.");
+    toast.success("Message sent! We&apos;ll be in touch within two business days.");
     setForm({ name: "", email: "", message: "" });
   };
 
@@ -22,7 +22,7 @@ export default function Contact() {
         <FadeIn direction="up">
           <span className="section-label mb-6 justify-center inline-flex">Contact</span>
           <h1 className="text-4xl md:text-6xl font-semibold leading-[1.05] text-balance max-w-3xl mx-auto">
-            Let's build something <span className="highlight-mark">remarkable</span>
+            Let&apos;s build something <span className="highlight-mark">remarkable</span>
           </h1>
           <p className="text-muted-foreground mt-5 max-w-xl mx-auto">
             Tell us about your project. We read every message and reply within two business days.
