@@ -49,7 +49,7 @@ export const Footer = () => {
               alt="Samodigital" 
               width={140} 
               height={47} 
-              className="h-12 w-auto" 
+              className="h-32 w-auto" 
             />
           </Link>
           <p className="mt-4 text-sm text-gray-600 dark:text-gray-400 max-w-xs leading-relaxed">
