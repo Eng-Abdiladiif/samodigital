@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import "@/index.css";
 import { Providers } from "./providers";
+import { WhatsAppWidget } from "@/components/site/WhatsAppWidget";
 
 export const metadata: Metadata = {
   title: "Samo Digital Solution",
@@ -23,6 +24,7 @@ export default function RootLayout({
             <Toaster />
             <Sonner />
             {children}
+            <WhatsAppWidget />
           </TooltipProvider>
         </Providers>
       </body>
