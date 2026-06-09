@@ -36,13 +36,13 @@ export default function Contact() {
             <div className="surface-card p-8 space-y-6 h-full">
               <div>
                 <h3 className="font-semibold mb-1">Email</h3>
-                <a href="mailto:hello@pixpert.studio" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-2">
+                <a href="samodigital026@gmail.com" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-2">
                   <Mail className="h-4 w-4" /> samodigital026@gmail.com
                 </a>
               </div>
               <div>
                 <h3 className="font-semibold mb-1">Phone</h3>
-                <a href="tel:+14155550101" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-2">
+                <a href="tel:+2520634991174" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-2">
                   <Phone className="h-4 w-4" /> (+252)064991174
                 </a>
               </div>
@@ -74,7 +74,7 @@ export default function Contact() {
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                   className="h-12 px-4 rounded-lg bg-input border border-border focus:outline-none focus:ring-2 focus:ring-ring"
-                  placeholder="Jane Doe"
+                  placeholder="samo"
                 />
               </div>
               <div className="grid gap-2">
@@ -86,7 +86,7 @@ export default function Contact() {
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
                   className="h-12 px-4 rounded-lg bg-input border border-border focus:outline-none focus:ring-2 focus:ring-ring"
-                  placeholder="jane@company.com"
+                  placeholder="samodigital026@gmail.com"
                 />
               </div>
               <div className="grid gap-2">
