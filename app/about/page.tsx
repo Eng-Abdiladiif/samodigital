@@ -29,7 +29,7 @@ export default function About() {
             A small studio with a <span className="highlight-mark">big appetite</span> for ambitious work
           </h1>
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto">
-            Samo Digital Solution was founded in 2026 around a simple belief: that the best digital work happens when strategy, design, and engineering live in the same room. We've been building that way ever since.
+            Samo Digital Solution was founded in 2026 around a simple belief: that the best digital work happens when strategy, design, and engineering live in the same room. We&apos;ve been building that way ever since.
           </p>
         </FadeIn>
       </section>
