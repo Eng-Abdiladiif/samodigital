@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button'
 import { ArrowRight, Mail, SendHorizonal } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export function HeroSection() {
     return (
@@ -55,14 +56,14 @@ export function HeroSection() {
                 <div className="absolute inset-0 -mx-4 rounded-3xl p-3 lg:col-span-3">
                     <div aria-hidden className="absolute z-[1] inset-0 bg-gradient-to-r from-background from-35%" />
                     <div className="relative">
-                        <img
+                        <Image
                             className="hidden dark:block"
                             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=2796&q=80"
                             alt="app illustration"
                             width={2796}
                             height={2008}
                         />
-                        <img
+                        <Image
                             className="dark:hidden"
                             src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=2796&q=80"
                             alt="app illustration"

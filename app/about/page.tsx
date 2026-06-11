@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 import { FadeIn, StaggerContainer } from "@/components/animations";
 
 const values = [
-  { icon: Heart, title: "Care deeply", desc: "We treat your work like it's our own — because it is." },
+  { icon: Heart, title: "Care deeply", desc: "We treat your work like it&apos;s our own — because it is." },
   { icon: Zap, title: "Move with intent", desc: "Speed comes from clarity, not chaos. We pick the right battles." },
   { icon: Award, title: "Make it last", desc: "We optimize for systems and decisions that age well." },
-  { icon: Globe, title: "Stay curious", desc: "We're students of the craft, the market, and the medium." },
+  { icon: Globe, title: "Stay curious", desc: "We&apos;re students of the craft, the market, and the medium." },
 ];
 
 const stats = [

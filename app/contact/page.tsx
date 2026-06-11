@@ -36,7 +36,7 @@ export default function Contact() {
             <div className="surface-card p-8 space-y-6 h-full">
               <div>
                 <h3 className="font-semibold mb-1">Email</h3>
-                <a href="samodigital026@gmail.com" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-2">
+                <a href="mailto:samodigital026@gmail.com" className="text-muted-foreground hover:text-foreground inline-flex items-center gap-2">
                   <Mail className="h-4 w-4" /> samodigital026@gmail.com
                 </a>
               </div>
